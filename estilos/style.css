@@ -1,0 +1,434 @@
+@import url("https://fonts.googleapis.com/css2?family=Chewy&display=swap");
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background: #292e35;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #292e35, #904343);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #292e35, #904343);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+header {
+  height: 75px;
+  top: 0px;
+  background-color: #292e35; }
+  header .logo33 {
+    height: 60px;
+    width: 60px;
+    margin-top: 0px;
+    margin-left: 20px; }
+
+/*
+.navegacion{
+    display: flex;
+}
+
+.ul_header li{
+    display: inline-block;
+    padding: 25px;
+    font-size: large;
+    margin: 10px 10px 0px 100px;
+}
+*/
+/*
+.seccioncar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:10px;
+    gap: 300px;
+}
+*/
+.seccion_uno {
+  height: 800px;
+  width: 1703px;
+  margin-top: 15px;
+  margin-left: 103px;
+  background-color: #FF9050; }
+
+.flechaizq {
+  height: 40px;
+  width: 40px;
+  margin-top: 400px; }
+
+.flechader {
+  height: 40px;
+  width: 40px;
+  margin-left: 1619px; }
+
+.puntos {
+  font-size: 150px;
+  text-align: center;
+  margin-top: 170px;
+  color: #292E35; }
+
+.productos {
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Chewy', cursive;
+  margin-top: 60px;
+  /*EXTEND*/
+  border: 3px solid #904343;
+  background-color: #292E35; }
+
+.productos {
+  border-radius: 10px; }
+
+.seccion_dos {
+  display: flex;
+  justify-content: space-between; }
+
+.producto_uno {
+  height: 500px;
+  width: 420px;
+  background-color: #292E35;
+  margin-top: 30px;
+  margin-left: 20px; }
+
+.producto_dos {
+  height: 500px;
+  width: 420px;
+  background-color: #292E35;
+  margin-top: 30px; }
+
+.producto_tres {
+  height: 500px;
+  width: 420px;
+  background-color: #292E35;
+  margin-top: 30px; }
+
+.mappp {
+  height: 400px;
+  width: 70%; }
+
+.mapas {
+  height: 100px;
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 200px; }
+
+.direccion {
+  position: absolute;
+  color: #292E35; }
+
+.direccion p {
+  color: black; }
+
+/*
+.mapa{
+    height: 400px;
+    width: 1703px;
+    background-image: url(../imagenes/mapita.jpg);
+    background-size: 1703px 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    margin-left: 103px;
+    display: flex;
+}
+*/
+/*
+.direccion{
+    height: 390px;
+    width: 440px;
+    margin-left: 1200px;
+    margin-top: 5px;
+    background-color: #292E35;
+}
+*/
+.visitanos {
+  font-weight: bold;
+  font-size: xx-large;
+  font-family: 'Chewy', cursive;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-left: 40px; }
+
+.ubi {
+  font-size: larger;
+  font-family: 'Chewy', cursive;
+  color: #ffffff;
+  margin-top: 15px;
+  margin-left: 40px; }
+
+.num {
+  font-size: larger;
+  font-family: 'Chewy', cursive;
+  color: #ffffff;
+  margin-top: 15px;
+  margin-left: 40px; }
+
+.dire_contacto {
+  font-weight: bold;
+  font-size: xx-large;
+  font-family: 'Chewy', cursive;
+  color: #ffffff;
+  margin-top: 50px;
+  margin-left: 40px; }
+
+.email {
+  font-size: larger;
+  font-family: 'Chewy', cursive;
+  color: #ffffff;
+  margin-left: 40px; }
+
+.telefono {
+  font-size: larger;
+  font-family: 'Chewy', cursive;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-left: 40px; }
+
+footer {
+  height: 300px;
+  width: 100%;
+  background-color: #292e35;
+  margin-top: 70px;
+  display: flex; }
+
+.ul_footer {
+  margin-top: 40px;
+  margin-left: 60px;
+  font-size: larger;
+  font-family: 'Chewy', cursive;
+  list-style: none; }
+
+.ul_footer li {
+  margin: 20px 0px 20px 60px; }
+
+a {
+  text-decoration: none;
+  color: #ffffff; }
+
+.redes {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.facebook {
+  height: 40px;
+  width: 40px;
+  /*
+    margin-top: 180px;*/ }
+
+.instagram {
+  height: 40px;
+  width: 40px;
+  /*
+    margin-top: 180px;
+    margin-left: 20px;*/ }
+
+.row {
+  width: 100%; }
+
+.snapchat {
+  height: 40px;
+  width: 40px;
+  /*
+    margin-top: 180px;
+    margin-left: 20px;*/ }
+
+.twitter {
+  height: 40px;
+  width: 40px;
+  /*
+    margin-top: 180px;
+    margin-left: 20px;*/ }
+
+.youtube {
+  height: 40px;
+  width: 40px;
+  /*
+    margin-top: 180px;
+    margin-left: 20px;*/ }
+
+.cont-sec {
+  display: flex;
+  justify-content: center; }
+
+.proyecto_uno {
+  height: 700px;
+  width: 85%;
+  background-color: #292E35;
+  margin-top: 60px; }
+
+.titulo {
+  font-size: xx-large;
+  font-family: 'Chewy', cursive;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 60px; }
+
+/* APLICANDO MIXINS P 1y3*/
+.parrafo_uno {
+  font-size: x-large;
+  font-weight: bold;
+  font-family: 'Chewy', cursive;
+  color: #ffffff;
+  margin-right: 20px;
+  margin-top: 100px;
+  margin-left: 20px; }
+
+.parrafo_uno {
+  height: auto;
+  width: auto;
+  background-color: #904343;
+  border-radius: 8px; }
+
+/*Aplicando mapa*/
+.btn--button {
+  background-color: #904343;
+  font-size: x-large;
+  font-weight: bolder;
+  font-family: 'Chewy', cursive;
+  color: #ffffff;
+  margin-right: 20px;
+  margin-top: 50px;
+  margin-left: 20px; }
+
+.parrafo_tres {
+  font-size: x-large;
+  font-weight: bolder;
+  font-family: 'Chewy', cursive;
+  color: #ffffff;
+  margin-right: 20px;
+  margin-top: 50px;
+  margin-left: 20px; }
+
+.parrafo_tres {
+  height: auto;
+  width: auto;
+  background-color: #904343;
+  border-radius: 8px; }
+
+.contactos_fondo {
+  background-image: url(../imagenes/map.jpeg);
+  height: 500px;
+  width: 1200px;
+  margin-top: 70px;
+  margin-left: 350px; }
+
+.contactos_titulo {
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Chewy', cursive;
+  text-decoration: underline; }
+
+.footer_secciones {
+  height: 150px;
+  width: 100%; }
+
+/*
+.contactos_facebook{
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 740px;
+}
+
+.contactos_instagram{
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.contactos_snapchat{
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.contactos_twitter{
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.contactos_youtube{
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+*/
+.nosotros_uno {
+  height: 700px;
+  width: 1600px;
+  background-color: #292E35;
+  margin-top: 60px;
+  margin-left: 145px; }
+
+.nosotros_titulo {
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Chewy', cursive;
+  text-decoration: underline;
+  font-size: xx-large;
+  padding-top: 50px; }
+
+.nosotros_cont {
+  color: #ffffff;
+  font-family: 'Chewy', cursive;
+  font-size: x-large;
+  margin-left: 40px;
+  text-align: center; }
+
+.servicios_uno {
+  height: 700px;
+  width: 1600px;
+  background-color: #292E35;
+  margin-top: 60px;
+  margin-left: 145px; }
+
+.servicios_titulo {
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Chewy', cursive;
+  text-decoration: underline;
+  font-size: xx-large;
+  padding-top: 50px; }
+
+.servicios_cont {
+  color: #ffffff;
+  font-family: 'Chewy', cursive;
+  font-size: x-large;
+  margin-left: 20px;
+  text-align: center; }
+
+@media (max-width: 1279px) {
+  .seccion_dos {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center; }
+  .producto_uno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px; }
+  .producto_dos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: 20px; }
+  .producto_tres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: 20px; } }
