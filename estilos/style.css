@@ -21,6 +21,10 @@ header {
     margin-top: 0px;
     margin-left: 20px; }
 
+.violet {
+  background-color: #292E35;
+  font-family: 'Chewy', cursive; }
+
 /*
 .navegacion{
     display: flex;
@@ -100,6 +104,28 @@ header {
   width: 420px;
   background-color: #292E35;
   margin-top: 30px; }
+
+#info {
+  background-color: #292e35;
+  color: white;
+  font-family: 'Chewy', cursive;
+  text-align: center;
+  padding-top: 30px;
+  margin-top: 80px; }
+
+#info .contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.info-pet {
+  margin: 20px; }
+
+.info-pet img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 7px solid #904343; }
 
 .mappp {
   height: 400px;
@@ -322,7 +348,8 @@ a {
   color: #ffffff;
   text-align: center;
   font-family: 'Chewy', cursive;
-  text-decoration: underline; }
+  text-decoration: underline;
+  margin-top: 70px; }
 
 .footer_secciones {
   height: 150px;
