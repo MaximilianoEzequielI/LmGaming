@@ -2,569 +2,74 @@
 @import "fuentes";
 @import "general";
 @import "header";
-
-/*
-.navcart { 
-    padding: 8px;
-    background-color: #292E35;
-    display: grid;
-    grid-template-columns: repeat(8,1fr);
-    align-items: center;
-}
-
-.navcart .menu-bar{
-    display: none;
-}
-
-.navcart .logo{ 
-    width: 60px;    
-    height: 60px;  
-    grid-column: 2/3;  
-}
-
-.navcart .menu{ 
-    grid-column: 4/7;
-    display: flex;
-    justify-content: space-around;
-}
-
-.navcart .menu li{  
-    list-style: none;
-}
-
-.navcart .menu{   
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-}
-
-.navcart .cart { 
-    color: white;
-    grid-column: 8/9;
-    font-size: 2em;   
-    cursor: pointer; 
-}
-/* SECTION MAIN */
-/*
-.hero{  
-    width: 200vh;
-    height: 110vh;
-    background-image: linear-gradient(rgba(16, 16, 16, .8),rgba(16, 16, 16, .8)), url(../imagenes/img11.jpg);
-    background-size: cover;
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: repeat(10,1fr);
-    grid-template-rows: repeat(8,1fr);
-}
-.hero .info-content{    
-    grid-column: 9/10;
-    grid-row: -2/7;
-    color: white;
-}
-
-.hero .btn{  
-    font-family: 'Chewy', cursive;
-    font-size: 1.5em;
-    background: none;
-    color: white;
-    padding: 15px 25px;
-    border: 1px solid #FF9050;
-    cursor: pointer;
-}
-.hero .btn:hover{   
-    color: #FF9050;
-}
-*/
-.seccion_uno{
-    height: 800px;
-    width: 1703px;
-    margin-top: 15px;
-    margin-left: 103px;
-    background-color: #FF9050;
-}
-
-.flechaizq{
-    height: 40px;
-    width: 40px;
-    margin-top: 400px;
-}
-
-.flechader{
-    height: 40px;
-    width: 40px;
-    margin-left: 1619px;
-}
-
-.puntos{
-    font-size: 150px;
-    text-align: center;
-    margin-top: 170px;
-    color: #292E35;
-}
-.productos{
-    color: #ffffff;
-    text-align: center;
-    font-family: 'Chewy', cursive;
-    margin-top: 60px;
-    /*EXTEND*/
-    border: 3px solid #904343;
-    background-color: #292E35
-    
-}
-.productos{ 
-    @extend .productos;
-    border-radius: 10px;
-}
-
-.seccion_dos{
-    display: flex;
-    justify-content: space-between;
-}
-
-.producto_uno{
-    height: 500px;
-    width: 420px;
-    background-color: #292E35;
-    margin-top: 30px;
-    margin-left: 20px;
-}
-
-.producto_dos{
-    height: 500px;
-    width: 420px;
-    background-color: #292E35;
-    margin-top: 30px;
-}
-
-.producto_tres{
-    height: 500px;
-    width: 420px;
-    background-color: #292E35;
-    margin-top: 30px;
-}
-
-#info { 
-    background-color: #292e35;
-    color: white;
-    font-family: 'Chewy', cursive;
-    text-align: center;
-    padding-top: 30px;
-    margin-top: 80px;
-  }
-  
-  #info .contenedor {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .info-pet { 
-    margin: 20px;
-  }
-  
-  .info-pet img { 
-    width: 180px; 
-    height: 180px;
-    border-radius: 50%;
-    border: 7px solid #904343;
-  }
-  
-.mappp{
-    height: 400px;
-    width: 70%;
-
-}
-.mapas{
-    height: 100px;
-    width: 100%;
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 200px;
-    margin-bottom: 200px;
-
-}
-
-.direccion{
-    position: absolute;
-    color: #292E35;
-    
-    
-}
-
-.direccion p{
-    color: black;
-}
-/*
-.mapa{
-    height: 400px;
-    width: 1703px;
-    background-image: url(../imagenes/mapita.jpg);
-    background-size: 1703px 400px;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-top: 60px;
-    margin-left: 103px;
-    display: flex;
-}
-*/
-/*
-.direccion{
-    height: 390px;
-    width: 440px;
-    margin-left: 1200px;
-    margin-top: 5px;
-    background-color: #292E35;
-}
-*/
-.visitanos{
-    font-weight: bold;
-    font-size: xx-large;
-    font-family: 'Chewy', cursive;
-    color: #ffffff;
-    margin-top: 30px;
-    margin-left: 40px;
-}
-
-.ubi{
-    font-size: larger;
-    font-family: 'Chewy', cursive;
-    color: #ffffff;
-    margin-top: 15px;
-    margin-left: 40px;
-}
-
-.num{
-    font-size: larger;
-    font-family: 'Chewy', cursive;
-    color: #ffffff;
-    margin-top: 15px;
-    margin-left: 40px;
-}
-
-
-.dire_contacto{
-    font-weight: bold;
-    font-size: xx-large;
-    font-family: 'Chewy', cursive;
-    color: #ffffff;
-    margin-top: 50px;
-    margin-left: 40px;
-}
-
-.email{
-    font-size: larger;
-    font-family: 'Chewy', cursive;
-    color: #ffffff;
-    margin-left: 40px;
-}
-
-.telefono{
-    font-size: larger;
-    font-family: 'Chewy', cursive;
-    color: #ffffff;
-    margin-top: 30px;
-    margin-left: 40px;
-}
+@import "index";
+@import "pagos";
+@import "contactanos";
+@import "micuenta";
+@import "loggin";
+@import "crearcuenta";
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Changa:wght@600&family=Chewy&family=Dongle:wght@300&family=Oswald&family=Raleway:ital,wght@0,400;0,700;1,300&family=Roboto+Mono:ital,wght@1,700&family=Roboto:ital,wght@1,900&family=Supermercado+One&display=swap');
 
 footer {
-    display: grid;
-    height: 300px;
-    width: 100%;
-    align-items: center;
-    background-color: #292e35;
-    margin-top: 70px;
-    grid-template-areas: "ul_footer redes";
+  margin-top: auto;
 }
-  
-.ul_footer {
-    margin-top: 40px;
-    margin-left: 60px;
-    font-size: larger;
-    font-family: 'Chewy', cursive;
-    list-style: none;
-    background-color: #292e35;
+
+footer h5{  
+  font-size: 1.18rem;
 }
-  
-.ul_footer li {
-    margin: 20px 0px 20px 60px; 
+
+.container-lg {
+  margin: auto auto auto auto;
+  background-color: white;
+  font-family: 'Changa', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  /* border-radius: 15px; */
 }
-  
+
+.btn-primary {
+  margin: auto;
+  color: white;
+  background-color: #343a40;
+  border-color: #343a40
+}
+
+.btn-primary:hover {
+  transform: skewX(-5deg);
+}
+
+
+/* REDES *//* REDES *//* REDES *//* REDES *//* REDES */
+/* REDES *//* REDES *//* REDES *//* REDES *//* REDES */
+/* REDES *//* REDES *//* REDES *//* REDES *//* REDES */
+
+.bi-twitter{  
+  color: #262626;
+  margin: 10px;
+  font-size: 35px;
+}
+
+.bi-instagram{  
+  color: #262626;
+  margin: 10px;
+  font-size: 30px;
+}
+
+.bi-facebook{ 
+  color: #262626;
+  margin: 10px;
+  font-size: 30px;
+}
+
 a {
-    text-decoration: none;
-    color: #ffffff; 
-}
-  
-.redes {
-      margin-right: auto;
-      text-align: center;
-      padding: 40px;
-      align-items: center;  
-}
-  
-.facebook {
-    height: 40px;
-    width: 40px;
-    margin: 0px 5px 0px 5px;
-    /*
-      margin-top: 180px;*/ 
-}
-  
-.instagram {
-    height: 40px;
-    width: 40px;
-    margin: 0px 5px 0px 5px;
-    /*
-      margin-top: 180px;
-      margin-left: 20px;*/ 
-}
-  
-.row {
-    width: 100%; 
-}
-  
-.snapchat {
-    height: 40px;
-    width: 40px;
-    margin: 0px 5px 0px 5px;
-    /*
-      margin-top: 180px;
-      margin-left: 20px;*/ 
-}
-  
-.twitter {
-    height: 40px;
-    width: 40px;
-    margin: 0px 5px 0px 5px;
-    /*
-      margin-top: 180px;
-      margin-left: 20px;*/ 
-}
-  
-  .youtube {
-    height: 40px;
-    width: 40px;
-    margin: 0px 5px 0px 5px;
-    /*
-      margin-top: 180px;
-      margin-left: 20px;*/ }
-  
-.cont-sec{
-    display: flex;
-    justify-content: center;
+  color: bisque;
 }
 
-.proyecto_uno{
-    height: 700px;
-    width: 85%;
-    background-color: #292E35;
-    margin-top: 60px;
-    
+.color{ 
+  background-color: #b16464;
 }
 
-.titulo{
-    font-size: xx-large;
-    font-family: 'Chewy', cursive;
-    font-weight: bold;
-    color: #ffffff;
-    text-align: center;
-    text-decoration: underline;
-    padding-top: 60px;
-}
-/* APLICANDO MIXINS P 1y3*/
-.parrafo_uno{
-    font-size: x-large;
-    font-weight: bold;
-    font-family: 'Chewy', cursive;
-    color: #ffffff;
-    margin-right: 20px;
-    margin-top: 100px;
-    margin-left: 20px;
+.bgg {
+  background-color: #b16464;
 }
 
-@mixin size ($width, $height){
-    height: $height;
-    width: $width;
-}
-.parrafo_uno{   
-    @include size(auto, auto);
-    background-color: #904343 ;
-    border-radius: 8px;
-}
-/*Aplicando mapa*/
-
-$buttonp:(   
-    button: #904343
-);
-
-@each $button, $color in $buttonp{
-    .btn--#{$button}{   
-        background-color: $color;
-        font-size: x-large;
-        font-weight: bolder;
-        font-family: 'Chewy', cursive;
-        color: #ffffff;
-        margin-right: 20px;
-        margin-top: 50px;
-        margin-left: 20px;
-    }
-}
-.parrafo_tres{
-    font-size: x-large;
-    font-weight: bolder;
-    font-family: 'Chewy', cursive;
-    color: #ffffff;
-    margin-right: 20px;
-    margin-top: 50px;
-    margin-left: 20px;
-}
-
-@mixin size ($width, $height){
-    height: $height;
-    width: $width;
-}
-.parrafo_tres{   
-    @include size(auto, auto);
-    background-color: #904343 ;
-    border-radius: 8px;
-}
-
-.contactos_fondo{
-    background-image: url(../imagenes/map.jpeg);
-    height: 500px;
-    width: 1200px;
-    margin-top: 70px;
-    margin-left: 350px;
-}
-
-.contactos_titulo{
-    color: #ffffff;
-    text-align: center;
-    font-family: 'Chewy', cursive;
-    text-decoration: underline;
-    margin-top: 70px;
-}
-
-.footer_secciones{
-    height: 150px;
-    width: 100%;
-}
-/*
-.contactos_facebook{
-    height: 60px;
-    width: 60px;
-    margin-top: 10px;
-    margin-left: 740px;
-}
-
-.contactos_instagram{
-    height: 60px;
-    width: 60px;
-    margin-top: 10px;
-    margin-left: 30px;
-}
-
-.contactos_snapchat{
-    height: 60px;
-    width: 60px;
-    margin-top: 10px;
-    margin-left: 30px;
-}
-
-.contactos_twitter{
-    height: 60px;
-    width: 60px;
-    margin-top: 10px;
-    margin-left: 30px;
-}
-
-.contactos_youtube{
-    height: 60px;
-    width: 60px;
-    margin-top: 10px;
-    margin-left: 30px;
-}
-*/
-.nosotros_uno{
-    height: 700px;
-    width: 1600px;
-    background-color: #292E35;
-    margin-top: 60px;
-    margin-left: 145px;
-}
-
-.nosotros_titulo{
-    color: #ffffff;
-    text-align: center;
-    font-family: 'Chewy', cursive;
-    text-decoration: underline;
-    font-size: xx-large;
-    padding-top: 50px;
-}
-
-.nosotros_cont{
-    color: #ffffff;
-    font-family: 'Chewy', cursive;
-    font-size: x-large;
-    margin-left: 40px;
-    text-align: center;
-}
-
-.servicios_uno{
-    height: 700px;
-    width: 1600px;
-    background-color: #292E35;
-    margin-top: 60px;
-    margin-left: 145px;
-}
-
-.servicios_titulo{
-    color: #ffffff;
-    text-align: center;
-    font-family: 'Chewy', cursive;
-    text-decoration: underline;
-    font-size: xx-large;
-    padding-top: 50px;
-}
-
-.servicios_cont{
-    color: #ffffff;
-    font-family: 'Chewy', cursive;
-    font-size: x-large;
-    margin-left: 20px;
-    text-align: center;
-}
-
-@media (max-width:1279px){
-    .seccion_dos{
-        display: flex;
-        justify-content: center;
-        justify-items: center;
-        align-items: center;
-        text-align: center;
-    }
-
-    .producto_uno{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 50px;
-    }
-
-    .producto_dos{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 50px;
-        margin-left: 20px;
-    }
-
-    .producto_tres{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 50px;
-        margin-left: 20px;
-    }
-}

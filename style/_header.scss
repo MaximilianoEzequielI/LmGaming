@@ -1,15 +1,77 @@
 header {
-    height: 75px;
-    top: 0px;
-    background-color: $inventouno; 
-    .logo33{
-        height: 60px;
-        width: 60px;
-        margin-top: 0px;
-        margin-left: 20px;
-    }
-}
-.violet{    
-    background-color: #292E35;
-    font-family: 'Chewy', cursive;
-}
+    z-index: 3;
+    position: sticky;
+    top: 0;
+    margin: 0px 0px 0px 0px;
+  }
+  
+  
+  .navbar {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  
+  .navbar-collapse {
+    justify-content: center;
+  }
+  
+  .navbar-nav {
+    top: 50%;
+    left: 50%;
+    display: flex;
+  }
+  
+  .nav-item {
+    list-style: none;
+  }
+  
+  .nav-link {
+    position: relative;
+    text-decoration: none;
+    color: #262626;
+    transition: .5s;
+    z-index: 1;
+  }
+  
+  .nav-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid #262626;
+    border-bottom: 2px solid #262626;
+    transform: scaleY(2);
+    opacity: 0;
+    transition: .3s;
+  }
+  
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #262626;
+    transform: scale(0);
+    opacity: 0;
+    transition: .3s;
+    z-index: -1;
+  }
+  
+  .navbar-light .navbar-nav .nav-link.active:hover {
+    color: white;
+  }
+  
+  .nav-link:hover::before {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+  
+  .nav-link:hover::after {
+    transform: scaleY(1);
+    opacity: 1;
+  }
